@@ -9,6 +9,9 @@
 </head>
 <body>
 
+@include('components.header')
+@include('components.nav')
+
 <section class="section">
     <div class="container">
         @yield('content')
